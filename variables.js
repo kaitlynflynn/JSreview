@@ -15,6 +15,7 @@
 // 2. Variable names can contain letters or numbers, $ or underscores, but no other special characters or spaces. 
 // 3. You can't use any keywords (ex: let let = 8;) (2nd 'let' needs to be called something else in this case.)
 // 4. Variable names are case sensitive. (ex: uppercase X and lowercase x would be different.)
+// USE GOOD NAMING CONVENTION! 
 
 // Created variables = to value of 7 (x) and 3 (y) 
 let x = 7;
@@ -25,3 +26,9 @@ x = 4; // when assigning new values to 'x', this problem will then print '7' to 
 let y = 3;
 let z = x + y; // + sign = addition operator in this line 
 console.log('Answer: ' + z); // + sign here strings two values together/concatenate the values of x + y
+
+// Examples of good naming convention on variables: (use camel-casing & be consistent!)
+let firstNumber = 7;
+let secondNumber = 3;
+let firstName = 'Kaitlyn';
+let zipCode = '98077';
