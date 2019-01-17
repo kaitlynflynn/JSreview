@@ -10,6 +10,12 @@
 // What does the equal sign mean in the below? 
 // This is called an assignment operator and how we assign a value into a variable. 
 
+// Rules for naming variables (identifiers): 
+// 1. All identifiers (variable names) must all begin with a letter, $ or underscore.
+// 2. Variable names can contain letters or numbers, $ or underscores, but no other special characters or spaces. 
+// 3. You can't use any keywords (ex: let let = 8;) (2nd 'let' needs to be called something else in this case.)
+// 4. Variable names are case sensitive. (ex: uppercase X and lowercase x would be different.)
+
 // Created variables = to value of 7 (x) and 3 (y) 
 let x = 7;
 x = 6; 
