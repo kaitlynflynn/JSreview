@@ -24,7 +24,7 @@ console.log(b[4]); // This examples shows up grabbing 'let b' which is our list 
 
 // .length 
 // Used to determine the number of elements in an array
-console.log(a.length); // .length is giving us the actual number, NOT zero based like indexes
+console.log(a.length); // .length is giving us the actual number, NOT zero based like indexes, printing 6 to console
 
 a[10] = 77; // assigned index 10 to value of 77
 console.log(a); // prints out the new value [ 4, 8, 15, 16, 23, 42, <4 empty items>, 77 ]
