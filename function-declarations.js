@@ -1,13 +1,24 @@
 // Function Declaration
-function sayHello() {
-    console.log('---------');
-    console.log('hello!');
-    console.log('---------')
-}
+// function sayHello() {
+//     console.log('---------');
+//     console.log('hello!');
+//     console.log('---------')
+// }
 
 // sayHello(); // invokes our function and prints the 3 console.logs above to our terminal
 
-let a = sayHello; // setting our variable to our above function
-a();
-a();
-a(); // these are invoking the function above given we set up our variable so it will print to terminal 3 times.
+// let a = sayHello; // setting our variable to our above function
+// a();
+// a();
+// a(); // these are invoking the function above given we set up our variable so it will print to terminal 3 times.
+
+// This function will allow us to pass in a name by passing in an argument 
+function sayHello(name) {
+    console.log('---------');
+    console.log('hello ' + name + '!'); // using some string operators with name
+    console.log('---------');
+}
+
+sayHello('Kaitlyn');
+sayHello('Comrade');
+sayHello('Clementine'); // these 3 successfully print out to the terminal with 'hello' in front of the corresponding name
