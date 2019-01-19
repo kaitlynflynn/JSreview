@@ -20,4 +20,8 @@ for (let b = 0; b < a.length; b++) {
 let x = 1;
 while (x < 10) {
     console.log(x++); // prints out the value of x and increments by 1 until it gets to 10; prints 1-9
+
+    if (x == 7) {
+        break; // this shows once it reaches 7, to break out or stop; prints 1-7; you can also do it in one line as `if (x == 7) break;`
+    }
 }
