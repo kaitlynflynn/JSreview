@@ -21,7 +21,7 @@ let others;
 
 console.log(a); // prints comrade
 console.log(b); // prints clementine
-console.log(others); // prints [ 'kevin', 'chairman', 'kailtyn ]
+console.log(others); // prints [ 'kevin', 'chairman', 'kaitlyn ]
 
 
 //-------------------------------------------
