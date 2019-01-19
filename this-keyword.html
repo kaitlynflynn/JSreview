@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- Whenever code is called from an in line on event handler, 'this' is set to the DOM element on which that listener is defined
+    What the 'this' keyword is bound to is NOT ALWAYS obvious. It depends on how a given function is called and the site in which it is called. 
+    In this case it is used at the element level and the console.log(this) is called at the global level. -->
+    <button onClick="clickHandler(this)">Click Me</button>
+
+    <script>
+        
+        function clickHandler(arg) {
+            console.log(arg);
+            console.log(arg.innerText);
+            console.log(this);
+        }
+
+    </script>
+</body>
+</html>
