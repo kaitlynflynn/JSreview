@@ -1,5 +1,5 @@
 # JSreview
-Repo to review some basic JS Fundamentals/Practice.
+Repo to review some basic JS Fundamentals and Practice implementing various methods and functions common to JS.
 
 ## Table of Contents: 
 * Basic JS Syntax
