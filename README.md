@@ -34,3 +34,6 @@ Repo to review some basic JS Fundamentals and Practice implementing various meth
 * Error Handling with Try Catch
 * Understanding the Document Object Model 
 * Working with DOM Nodes
+
+##License
+This refresher course was hosted on MVA (Microsoft Virtual Academy) by Bob Tabor.
