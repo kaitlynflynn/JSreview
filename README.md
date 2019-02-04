@@ -37,3 +37,4 @@ Repo to review some basic JS Fundamentals and Practice implementing various meth
 
 ##License
 This refresher course was hosted on MVA (Microsoft Virtual Academy) by Bob Tabor.
+[Course Link](https://mva.microsoft.com/en-us/training-courses/javascript-fundamentals-for-absolute-beginners-14194)
